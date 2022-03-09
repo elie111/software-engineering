@@ -108,12 +108,12 @@ public class ArithmeticApp {
             // The tokens that make up the input
             String[] tokens = input.split(" ");
             for (int n = 0; n < tokens.length; n++) {
-               String nextToken = tokens[n];
-               if(nextToken!="") {
-                   char ch = nextToken.charAt(0);
-                   if ((ch >= '0' && ch <= '9') || (ch >= 'A' && ch <= 'F'))
-                       tokens[n] = baseConversion(nextToken, sbase, 10);
-               }
+                String nextToken = tokens[n];
+                if(nextToken!="") {
+                    char ch = nextToken.charAt(0);
+                    if ((ch >= '0' && ch <= '9') || (ch >= 'A' && ch <= 'F'))
+                        tokens[n] = baseConversion(nextToken, sbase, 10);
+                }
             }
 
             // Main loop - process all input tokens
@@ -196,7 +196,7 @@ public class ArithmeticApp {
                 int j;
                 boolean flag=true;
                 for (j = 0; j < tokens[i].length()&&   (tokens[i].charAt(j)==' '); j++)
-                   ;
+                    ;
                 int start=j;
                 for (;j<tokens[i].length()&&(tokens[i].charAt(j)!=' ');j++)
                 {
@@ -300,4 +300,4 @@ public class ArithmeticApp {
             //int x=Integer.parseInt("215f");
         }
     }
-    }
+}
