@@ -10,26 +10,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5934d68e-288a-4fb6-b658-80508d70a0c8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/lab2_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab1/lab1/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1/lab1/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../207931536_208336321.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../207931536_208336321.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lab2Report.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2Report.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/HelloWorld.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/MultiplyVectors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/MultiplyVectors.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/ProducerConsumer2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/Sum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/SumThreads.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/org/example/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/example/AppTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/org/example/HelloWorld.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/org/example/MultiplyVectors.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/org/example/MyThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/org/example/MyThread2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/org/example/ProducerConsumer2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/org/example/Sum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/org/example/SumThreads.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/MultiplyVectors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/MultiplyVectors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ProducerConsumer2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ProducerConsumer2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/MultiplyVectors.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/MultiplyVectors.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/MyThread2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/MyThread2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/ProducerConsumer2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/ProducerConsumer2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lab2-1.0-SNAPSHOT-jar-with-dependencies.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/lab2-1.0-SNAPSHOT-jar-with-dependencies.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +42,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../lab1/lab1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -152,8 +143,8 @@
       <list>
         <item itemvalue="Application.SumThreads" />
         <item itemvalue="Application.Sum" />
-        <item itemvalue="Application.HelloWorld" />
         <item itemvalue="Application.MultiplyVectors" />
+        <item itemvalue="Application.HelloWorld" />
       </list>
     </recent_temporary>
   </component>

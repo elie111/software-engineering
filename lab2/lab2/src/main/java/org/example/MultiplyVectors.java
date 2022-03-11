@@ -1,8 +1,11 @@
 package org.example;
 import java.util.Scanner;
+import java.util.concurrent.TimeUnit;
+
 public class MultiplyVectors {
     public static Scanner in=new Scanner(System.in);
     public static void main(String []args){
+        long startTime = System.nanoTime(); // Computation start time
         int n,N,from,to,mul=0;
         int[] vec1,vec2;
         System.out.print("enter size of vector: ");
@@ -18,8 +21,8 @@ public class MultiplyVectors {
         vec1 = new int[n];
         vec2 = new int[n];
         for (int i = 0; i < n; i++) {
-            vec1[i] = (int) (Math.random() * 10) + 1;
-            vec2[i] = (int) (Math.random() * 10) + 1;
+            vec1[i] = (int) (Math.random() * 100) ;
+            vec2[i] = (int) (Math.random() * 100) ;
 
         }
         MyThread2[] threads = new MyThread2[N];
@@ -52,17 +55,32 @@ public class MultiplyVectors {
         }
         System.out.println("the multiplication of the two vectors is: "+mul);
 
+        System.out.print("[ ");
         for(int i=0;i<n;i++){
-            System.out.print(vec1[i]+", ");
+            System.out.print(vec1[i]+"  ");
         }
-        System.out.println();
+        System.out.println("]");
+        System.out.print("[ ");
         for(int i=0;i<n;i++){
-            System.out.print(vec2[i]+", ");
+            System.out.print(vec2[i]+"  ");
         }
+        System.out.println("]");
 
 
 
-
+        long difference = System.nanoTime() - startTime;
+        // Print it out
+        long minutesInDifference = TimeUnit.NANOSECONDS.toMinutes(difference);
+        long secondsInDifference =
+                TimeUnit.NANOSECONDS.toSeconds(difference) - TimeUnit.MINUTES.toSeconds(minutesInDifference);
+        long milisecondsInDifference =
+                TimeUnit.NANOSECONDS.toMillis(difference) - TimeUnit.SECONDS.toMillis(secondsInDifference);
+        System.out.format(
+                "Total execution time: %d min, %d sec, %d milisec\n",
+                minutesInDifference,
+                secondsInDifference,
+                milisecondsInDifference
+        );
 
 
     }

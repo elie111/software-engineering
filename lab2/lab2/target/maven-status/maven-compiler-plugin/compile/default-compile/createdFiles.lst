@@ -1,3 +1,8 @@
-org\example\MultiplyVectors.class
 org\example\MyThread2.class
+org\example\MyThread.class
+org\example\Sum.class
+org\example\ProducerConsumer2.class
+org\example\HelloWorld.class
+org\example\MultiplyVectors.class
+org\example\SumThreads.class
 org\example\App.class
