@@ -9,19 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5934d68e-288a-4fb6-b658-80508d70a0c8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../207931536_208336321.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../207931536_208336321.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab2Report.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2Report.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/MultiplyVectors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/MultiplyVectors.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ProducerConsumer2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ProducerConsumer2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/MultiplyVectors.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/MultiplyVectors.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/MyThread2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/MyThread2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/ProducerConsumer2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/ProducerConsumer2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lab2-1.0-SNAPSHOT-jar-with-dependencies.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/lab2-1.0-SNAPSHOT-jar-with-dependencies.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-    </list>
+    <list default="true" id="5934d68e-288a-4fb6-b658-80508d70a0c8" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

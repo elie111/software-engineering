@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="500.0" prefWidth="350.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.Calculator">
+   <children>
+      <TextField fx:id="resultTF" layoutX="33.0" layoutY="20.0" maxWidth="294.0" prefHeight="107.0" prefWidth="294.0">
+         <font>
+            <Font size="18.0" />
+         </font></TextField>
+      <ComboBox fx:id="baseBox" layoutX="100.0" layoutY="152.0" onAction="#calcBase" prefWidth="150.0" />
+      <Button fx:id="aBtn" layoutX="26.0" layoutY="152.0" mnemonicParsing="false" onAction="#calcBtns" prefHeight="20.0" prefWidth="50.0" text="A" />
+      <Button fx:id="clearBtn" layoutX="276.0" layoutY="152.0" mnemonicParsing="false" onAction="#calcBtns" prefHeight="20.0" prefWidth="50.0" text="Clear" />
+      <Button fx:id="bBtn" layoutX="26.0" layoutY="204.0" mnemonicParsing="false" onAction="#calcBtns" prefHeight="20.0" prefWidth="50.0" text="B" />
+      <Button fx:id="oneBtn" layoutX="107.0" layoutY="204.0" mnemonicParsing="false" onAction="#calcBtns" prefHeight="20.0" prefWidth="50.0" text="1" />
+      <Button fx:id="twoBtn" layoutX="189.0" layoutY="204.0" mnemonicParsing="false" onAction="#calcBtns" prefHeight="20.0" prefWidth="50.0" text="2" />
+      <Button fx:id="threeBtn" layoutX="276.0" layoutY="204.0" mnemonicParsing="false" onAction="#calcBtns" prefHeight="20.0" prefWidth="50.0" text="3" />
+      <Button fx:id="cBtn" layoutX="26.0" layoutY="266.0" mnemonicParsing="false" onAction="#calcBtns" prefHeight="20.0" prefWidth="50.0" text="C" />
+      <Button fx:id="dBtn" layoutX="26.0" layoutY="321.0" mnemonicParsing="false" onAction="#calcBtns" prefHeight="20.0" prefWidth="50.0" text="D" />
+      <Button fx:id="eBtn" layoutX="26.0" layoutY="377.0" mnemonicParsing="false" onAction="#calcBtns" prefHeight="20.0" prefWidth="50.0" text="E" />
+      <Button fx:id="fourBtn" layoutX="107.0" layoutY="266.0" mnemonicParsing="false" onAction="#calcBtns" prefHeight="20.0" prefWidth="50.0" text="4" />
+      <Button fx:id="sevenBtn" layoutX="107.0" layoutY="321.0" mnemonicParsing="false" onAction="#calcBtns" prefHeight="20.0" prefWidth="50.0" text="7" />
+      <Button fx:id="plusBtn" layoutX="107.0" layoutY="377.0" mnemonicParsing="false" onAction="#calcBtns" prefHeight="20.0" prefWidth="50.0" text="+" />
+      <Button fx:id="fiveBtn" layoutX="189.0" layoutY="266.0" mnemonicParsing="false" onAction="#calcBtns" prefHeight="20.0" prefWidth="50.0" text="5" />
+      <Button fx:id="eightBtn" layoutX="189.0" layoutY="321.0" mnemonicParsing="false" onAction="#calcBtns" prefHeight="20.0" prefWidth="50.0" text="8" />
+      <Button fx:id="sixBtn" layoutX="276.0" layoutY="266.0" mnemonicParsing="false" onAction="#calcBtns" prefHeight="20.0" prefWidth="50.0" text="6" />
+      <Button fx:id="nineBtn" layoutX="276.0" layoutY="321.0" mnemonicParsing="false" onAction="#calcBtns" prefHeight="20.0" prefWidth="50.0" text="9" />
+      <Button fx:id="minusBtn" layoutX="189.0" layoutY="377.0" mnemonicParsing="false" onAction="#calcBtns" prefHeight="20.0" prefWidth="50.0" text="-" />
+      <Button fx:id="zeroBtn" layoutX="276.0" layoutY="377.0" mnemonicParsing="false" onAction="#calcBtns" prefHeight="20.0" prefWidth="50.0" text="0" />
+      <Button fx:id="fBtn" layoutX="23.0" layoutY="427.0" mnemonicParsing="false" onAction="#calcBtns" prefHeight="20.0" prefWidth="50.0" text="F" />
+      <Button fx:id="mulBtn" layoutX="107.0" layoutY="427.0" mnemonicParsing="false" onAction="#calcBtns" prefHeight="20.0" prefWidth="50.0" text="*" />
+      <Button fx:id="divBtn" layoutX="189.0" layoutY="427.0" mnemonicParsing="false" onAction="#calcBtns" prefHeight="20.0" prefWidth="50.0" text="/" />
+      <Button fx:id="equalBtn" layoutX="276.0" layoutY="427.0" mnemonicParsing="false" onAction="#calcBtns" prefHeight="20.0" prefWidth="50.0" text="=" />
+   </children>
+</AnchorPane>
