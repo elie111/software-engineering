@@ -23,10 +23,12 @@ public class MultiplyVectors {
 
         }
         MyThread2[] threads = new MyThread2[N];
+        int counter=0;
         for (int i=0;i<N;i++){
+            counter++;
             threads[i] = new MyThread2(n,N,from,to,vec1,vec2);
             from=to;
-            if(i!=N-1) {
+            if(counter!=N-1) {
                 to += n / N;
             }
             else{

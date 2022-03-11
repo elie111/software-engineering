@@ -1,7 +1,5 @@
 package org.example;
-import org.example.MultiplyVectors;
 public class HelloWorld implements Runnable {
-    @Override
     public void run() {
         System.out.println("Hello world from thread number "
                 + Thread.currentThread().getName());
@@ -13,25 +11,16 @@ public class HelloWorld implements Runnable {
             // create threads
             threads[i] = new Thread(new HelloWorld(), threadName);
         }
-
         for (Thread thread : threads) {
             thread.start(); // start the threads
+        }
+        for (Thread thread : threads) {
             try {
                 thread.join(); // wait for the threads to terminate
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
         }
-//        for (Thread thread : threads) {
-//            try {
-//                thread.join(); // wait for the threads to terminate
-//            } catch (InterruptedException e) {
-//                e.printStackTrace();
-//            }
-//        }
         System.out.println("That's all, folks");
-
-
-
     }
 }

@@ -8,18 +8,19 @@ public class SumThreads  {
         long startTime = System.nanoTime(); // Computation start time
         long sum=0,from=0,to,num;
         num=(long)Math.pow(2,32);
-        to=num/9;
+        to=num/10;
 
         MyThread[] threads = new MyThread[10]; // create an array of threads
+int counter=0;
         for (int i = 0; i < 10; i++) {
 
-
+counter++;
             // create threads
             threads[i] = new MyThread(from,to);
-            from = to + 1;
-            if(i!=9) {
+            from = to ;
+            if(counter!=9) {
 
-                to += num / 9;
+                to += num / 10;
             }
             else{
                 to=(num);
@@ -43,6 +44,7 @@ public class SumThreads  {
 
         for (MyThread thread : threads) {
             sum+=thread.getSum(); // start the threads
+
         }
         System.out.println(sum);
 
@@ -71,7 +73,7 @@ class MyThread extends Thread implements Runnable{
     }
     @Override
     public void run(){
-        for(long i=from;i<=to;i++){
+        for(long i=from;i<to;i++){
             sum+=1;
         }
 
