@@ -44,13 +44,16 @@ public class ArithmeticApp {
         private Stack<Character> operatorStack;
         private Stack<Integer> valueStack;
         private boolean error;
-
+        private boolean minus;
         public FullCalculator() {
             operatorStack = new Stack<Character>();
             valueStack = new Stack<Integer>();
             error = false;
+            minus=false;
         }
-
+      public boolean getminusone(){
+            return this.minus;
+      }
         private boolean isOperator(char ch) {
             return ch == '+' || ch == '-' || ch == '*' || ch == '/';
         }
@@ -167,9 +170,13 @@ public class ArithmeticApp {
                     System.out.println("Expression error.");
                 } else {
                     //System.out.println("The result is " + result);
+                    if(result==-1){
+                        this.minus=true;
+                    }
                     return result;
                 }
             }
+
             return  -1;
         }
     }

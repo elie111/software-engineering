@@ -97,23 +97,72 @@ public class Calculator {
 boolean equal=false;
 String equation="";
 int base=10;
-
+boolean err=false;
 
 
     @FXML
     void calcBase(ActionEvent event) {
+        resultTF.setText("");
+        equation="";
         String chosen = baseBox.getSelectionModel().getSelectedItem();
+        zeroBtn.setDisable(false);
+        oneBtn.setDisable(false);
+        twoBtn.setDisable(false);
+        threeBtn.setDisable(false);
+        fourBtn.setDisable(false);
+        fiveBtn.setDisable(false);
+
+        sixBtn.setDisable(false);
+        sevenBtn.setDisable(false);
+        eightBtn.setDisable(false);
+        nineBtn.setDisable(false);
+        aBtn.setDisable(false);
+        bBtn.setDisable(false);
+        cBtn.setDisable(false);
+        dBtn.setDisable(false);
+        eBtn.setDisable(false);
+        fBtn.setDisable(false);
         switch (chosen){
             case "DEC":
+                aBtn.setDisable(true);
+                bBtn.setDisable(true);
+                cBtn.setDisable(true);
+                dBtn.setDisable(true);
+                eBtn.setDisable(true);
+                fBtn.setDisable(true);
                 base=10;
                 break;
             case "BIN" :
+                twoBtn.setDisable(true);
+                threeBtn.setDisable(true);
+                fourBtn.setDisable(true);
+                fiveBtn.setDisable(true);
+
+                sixBtn.setDisable(true);
+                sevenBtn.setDisable(true);
+                eightBtn.setDisable(true);
+                nineBtn.setDisable(true);
+                aBtn.setDisable(true);
+                bBtn.setDisable(true);
+                cBtn.setDisable(true);
+                dBtn.setDisable(true);
+                eBtn.setDisable(true);
+                fBtn.setDisable(true);
                 base=2;
                 break;
             case "HEX":
                 base=16;
                 break;
             case "OCT":
+                eightBtn.setDisable(true);
+                nineBtn.setDisable(true);
+                aBtn.setDisable(true);
+                bBtn.setDisable(true);
+                cBtn.setDisable(true);
+                dBtn.setDisable(true);
+                eBtn.setDisable(true);
+                fBtn.setDisable(true);
+                base=2;
                 base=8;
                 break;
 
@@ -122,13 +171,22 @@ int base=10;
     @FXML
     void calcBtns(ActionEvent event) {
 
+if(err==true){
+    equation="";
+    resultTF.setText(equation);
+    err=false;
 
+} //if there was an error clear the equation
 if(((Button)event.getSource())==clearBtn){
     equation="";
     resultTF.setText(equation);
-}
+} //if we pressed on clear button clear the equation and the screen
 else {
-    if (((Button) event.getSource()) == equalBtn) {
+    if (((Button) event.getSource()) == equalBtn) { // if we pressed on the equal button
+       if(equation.charAt(0)=='-'){
+            char zer='0';
+            equation=zer+equation;
+        }
         if(ArithmeticApp.checkcorrection(equation,base)) {
             String str = equation;
             for (int i = 0; i < str.length(); i++) {
@@ -143,7 +201,18 @@ else {
             ArithmeticApp.FullCalculator calc = new ArithmeticApp.FullCalculator();
             int res = calc.processInput(str, base);
 
-         equation=baseConversion(Integer.toString(res), 10, base).toUpperCase();
+if(res==-1&&calc.getminusone()==false) {
+
+    err=true;
+    equation="error";
+}
+else{
+    equation = baseConversion(Integer.toString(res), 10, base).toUpperCase();
+}
+}
+        else{
+            err=true;
+            equation="error";
         }
     } else {
         equation += ((Button) event.getSource()).getText();
@@ -159,7 +228,16 @@ else {
         baseBox.getItems().add("BIN");
         baseBox.getItems().add("HEX");
         baseBox.getItems().add("OCT");
+
         baseBox.getSelectionModel().selectFirst();
+        aBtn.setDisable(true);
+        bBtn.setDisable(true);
+        cBtn.setDisable(true);
+        dBtn.setDisable(true);
+        eBtn.setDisable(true);
+        fBtn.setDisable(true);
+        base=10;
+
         resultTF.setEditable(false);
 
         assert aBtn != null : "fx:id=\"aBtn\" was not injected: check your FXML file 'calculator.fxml'.";
