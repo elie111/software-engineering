@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ab011794-6b46-4cf6-b03a-456bc85bd275" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/lab3/src/main/java/org/example/NewMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/src/main/java/com/example/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/src/main/java/com/example/Owner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/src/main/resources/hibernate.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3.docx" beforeDir="false" afterPath="$PROJECT_DIR$/lab3.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/src/main/java/org/example/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/target/classes/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/target/classes/module-info.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/target/classes/org/example/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/target/classes/org/example/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/target/classes/org/example/ArithmeticApp$FullCalculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/target/classes/org/example/ArithmeticApp$FullCalculator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/target/classes/org/example/ArithmeticApp$Stack.class" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/target/classes/org/example/ArithmeticApp$Stack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/target/classes/org/example/ArithmeticApp$StackItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/target/classes/org/example/ArithmeticApp$StackItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/target/classes/org/example/ArithmeticApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/target/classes/org/example/ArithmeticApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/target/classes/org/example/Calculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/target/classes/org/example/Calculator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/target/classes/org/example/Practice.class" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/target/classes/org/example/Practice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/target/classes/org/example/PrimaryController.class" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/target/classes/org/example/PrimaryController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/target/classes/org/example/SecondaryController.class" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/target/classes/org/example/SecondaryController.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="27ms9hlVQSZ34HMxmcX0tl7CDS6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lab3" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ab011794-6b46-4cf6-b03a-456bc85bd275" name="Changes" comment="" />
+      <created>1649936447055</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1649936447055</updated>
+    </task>
+    <servers />
+  </component>
+</project>
